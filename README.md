@@ -46,7 +46,7 @@ A simple and user-friendly Python-based Image Steganography Tool that allows you
 1. Run the application:
 
    ```
-   python main.py
+   python app.py
    ```
 
 2. Use the GUI to select the image you want to encode data into or decode data from.
@@ -56,11 +56,17 @@ A simple and user-friendly Python-based Image Steganography Tool that allows you
 
 ## Screenshots
 
-![Encoding](/screenshots/encoding.png)
-*Encoding a secret message within an image.*
+![Encoding Step 1](Encode_Step1.png)
+*Select an image to encode a secret message.*
 
-![Decoding](/screenshots/decoding.png)
-*Decoding a hidden message from an encoded image.*
+![Encoding Step 2](Encode_Step2.png)
+*Encode the message into the selected image.*
+
+![Decoding Step 1](Decode_Step1.png)
+*Select an encoded image to decode the hidden message.*
+
+![Decoding Step 2](Decode_Step2.png)
+*View the hidden message decoded from the image.*
 
 ## Contributing
 
